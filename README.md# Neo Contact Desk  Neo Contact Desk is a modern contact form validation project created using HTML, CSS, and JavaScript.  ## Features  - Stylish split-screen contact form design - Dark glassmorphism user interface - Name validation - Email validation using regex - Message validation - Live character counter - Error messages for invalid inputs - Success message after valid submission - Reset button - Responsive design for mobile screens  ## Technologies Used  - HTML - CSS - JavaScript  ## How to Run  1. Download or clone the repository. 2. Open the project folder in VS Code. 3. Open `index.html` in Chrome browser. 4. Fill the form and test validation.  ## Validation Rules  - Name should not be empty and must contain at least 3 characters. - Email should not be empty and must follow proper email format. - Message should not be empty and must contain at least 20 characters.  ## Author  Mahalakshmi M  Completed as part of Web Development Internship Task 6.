@@ -1,0 +1,41 @@
+# Neo Contact Desk
+
+Neo Contact Desk is a modern contact form validation project created using HTML, CSS, and JavaScript.
+
+## Features
+
+- Stylish split-screen contact form design
+- Dark glassmorphism user interface
+- Name validation
+- Email validation using regex
+- Message validation
+- Live character counter
+- Error messages for invalid inputs
+- Success message after valid submission
+- Reset button
+- Responsive design for mobile screens
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## How to Run
+
+1. Download or clone the repository.
+2. Open the project folder in VS Code.
+3. Open "index.html" in Chrome browser.
+4. Fill the form and test validation.
+
+## Validation Rules
+
+- Name should not be empty and must contain at least 3 characters.
+- Email should not be empty and must follow proper email format.
+- Message should not be empty and must contain at least 20 characters.
+
+## Author
+
+Mahalakshmi M
+
+Completed as part of Web Development Internship Task 6.
