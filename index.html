@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elavate Labs Contact Desk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="contact-wrapper">
+    <section class="info-panel">
+      <h1>Elavate Labs Contact Desk</h1>
+      <p>Have a question, idea, or feedback? Send your message through this smart contact desk.</p>
+
+      <div class="info-box">
+        <h3>Contact Info</h3>
+        <p>Email: support@elavatedesk.com</p>
+        <p>Location: Bengaluru, India</p>
+        <p>Response Time: Within 24 hours</p>
+      </div>
+    </section>
+
+    <section class="form-panel">
+      <h2>Send Message</h2>
+
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your full name">
+          <small id="nameError" class="error"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="example@gmail.com">
+          <small id="emailError" class="error"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" rows="5" maxlength="250" placeholder="Write at least 20 characters"></textarea>
+          <div class="counter">
+            <span id="charCount">0</span>/250 characters
+          </div>
+          <small id="messageError" class="error"></small>
+        </div>
+
+        <div class="button-group">
+          <button type="submit">Submit Message</button>
+          <button type="reset" class="reset-btn">Reset</button>
+        </div>
+
+        <p id="successMessage" class="success"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
